@@ -1,4 +1,6 @@
-![Minto logo](static/images/minto_logo.png)
+<p align="center">
+  <img src="static/images/minto_logo.png" alt="Minto logo" width="240">
+</p>
 
 # Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning
 
