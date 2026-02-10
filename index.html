@@ -9,7 +9,7 @@
   <title>MINTO</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -20,7 +20,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  </script> -->
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -93,7 +93,7 @@
             <span class="author-block">
               <a href="https://ahmedhendawy.de">Ahmed Hendawy</a><sup>1,2</sup>,</span>
             <span class="author-block">
-              Henrik Metternich<sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?user=ewqYYXwAAAAJ&hl=de&authuser=1">Henrik Metternich</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=nZPOL4wAAAAJ&hl=en">Théo Vincent</a><sup>1,3</sup>,
             </span>
@@ -389,8 +389,8 @@
         </div> -->
         <!--/ Re-rendering. -->
 
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
     <!--/ Animation. -->
 
 
@@ -441,7 +441,104 @@
   </div>
 </section>
 
+<section class="section" id="Results">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Distributional RL</h2>
+        <figure class="image">
+          <img src="./static/images/results/distributional_rl_minto_vs_iqn.svg" alt="Results placeholder image">
+        </figure>
+        <!-- <div class="content has-text-justified">
+          <p><em>Description (optional):</em> Add a concise summary of what the result image shows.</p>
+          <p><em>Discussion (optional):</em> Add brief notes on key takeaways or comparisons.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="section" id="Results">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Offline RL</h2>
+        <figure class="image">
+          <img src="./static/images/results/offlinerl_minto_vs_cql.svg" alt="Results placeholder image">
+        </figure>
+        <!-- <div class="content has-text-justified">
+          <p><em>Description (optional):</em> Add a concise summary of what the result image shows.</p>
+          <p><em>Discussion (optional):</em> Add brief notes on key takeaways or comparisons.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="Results">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Online RL & Continuous Control</h2>
+        <figure class="image">
+          <img src="./static/images/results/onlinerl_continuous_control_minto_simbav1_simbav2.svg" alt="Results placeholder image">
+        </figure>
+        <!-- <div class="content has-text-justified">
+          <p><em>Description (optional):</em> Add a concise summary of what the result image shows.</p>
+          <p><em>Discussion (optional):</em> Add brief notes on key takeaways or comparisons.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="Qualitative">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">MINTO vs. Related Baselines</h2>
+        <div class="columns is-vcentered is-mobile qualitative-compare custom-ratio">
+          <div class="column ratio-left">
+            <figure class="image">
+              <img src="./static/images/results/onlinerl_discrete_control_minto_vs_baselines.svg" alt="Online RL">
+            </figure>
+          </div>
+          <div class="column ratio-right">
+            <figure class="image">
+              <img src="./static/images/results/offlinerl_minto_vs_baselines.svg" alt="Offline RL">
+            </figure>
+          </div>
+        </div>
+        <div class="columns is-mobile qualitative-captions custom-ratio">
+          <div class="column ratio-left">
+            <p class="has-text-centered is-size-6">(a) Online RL</p>
+          </div>
+          <div class="column ratio-right">
+            <p class="has-text-centered is-size-6">(b) Offline RL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="Results">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Why the Minimum Operator?</h2>
+        <figure class="image">
+          <img src="./static/images/results/target_operator_ablation.svg" alt="Results placeholder image">
+        </figure>
+        <!-- <div class="content has-text-justified">
+          <p><em>Description (optional):</em> Add a concise summary of what the result image shows.</p>
+          <p><em>Discussion (optional):</em> Add brief notes on key takeaways or comparisons.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -458,29 +555,12 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
     <div class="columns is-centered">
       <div class="column is-8">
-        <div class="content">
+        <div class="content has-text-centered">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            Theme modified from 
+            <a href="https://github.com/nerfies/nerfies.github.io" target="_blank" rel="noopener noreferrer">Nerfies</a>.
           </p>
         </div>
       </div>
